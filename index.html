@@ -10,11 +10,15 @@
     <link href="styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="container text-center">
-      <div id="chart"></div>
-      <div id="radio">
-        <label class="radio-inline"><input type="radio" name="chartType" value="0" checked="checked">Unemployment rate</label>
-        <label class="radio-inline"><input type="radio" name="chartType" value="1">Real Gross Domestic Product</label>
+    <div class="container">
+      <h1>FRED Historical Data</h1>
+      <p><em>The chart below represents the nation's unemployment rate or the real gross domestic product for the last 10 years.</em>
+      <div class="text-center">
+        <div id="chart"></div>
+        <div id="radio">
+          <label class="radio-inline"><input type="radio" name="chartType" value="0" checked="checked">Unemployment Rate</label>
+          <label class="radio-inline"><input type="radio" name="chartType" value="1">Real Gross Domestic Product</label>
+        </div>
       </div>
     </div>
   </body>
