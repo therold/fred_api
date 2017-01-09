@@ -7,15 +7,14 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="container">
-      <div id="curve_chart" style="width: 900px; height: 500px"></div>
-      <div class="radio">
-        <label><input type="radio" name="chartType" value="1" checked="checked">Unemployment rate</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="chartType" value="2">Real Gross Domestic Product</label>
+    <div class="container text-center">
+      <div id="chart"></div>
+      <div id="radio">
+        <label class="radio-inline"><input type="radio" name="chartType" value="0" checked="checked">Unemployment rate</label>
+        <label class="radio-inline"><input type="radio" name="chartType" value="1">Real Gross Domestic Product</label>
       </div>
     </div>
   </body>
