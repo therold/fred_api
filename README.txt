@@ -1,0 +1,3 @@
+FRED Historical Data
+
+This is a single-page HTML/CSS/Javascript document designed to load the nation's Unemployment Rate and Real Gross Domestic Product for the last 10 years. This data is retrieved from the Federal Reserve Bank of St. Louis via the FRED API (https://research.stlouisfed.org/docs/api/fred). The data is loaded via YQL, adjusted into a format that Google Line Chart will understand, and then displayed on the page (again, via Google Line Chart). The user has the option of selecting Unemployment Rate or Real Gross Domestic Product via radio buttons at the bottom of the page. Changing which radio button is selected will immediately change what is displayed on the chart.
